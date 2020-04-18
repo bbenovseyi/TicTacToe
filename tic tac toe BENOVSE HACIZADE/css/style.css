@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+     margin:0;
+}
+
+h1 {
+    text-align:center;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    color: tomato;
+    background-color: white
+}
+
+.tbl {
+    margin:5px auto;
+    border-collapse: collapse;
+}
+
+td {
+    height: 100px;
+    width: 100px;
+}
+
+.two, .five, .eight {
+    border-left: 5px solid;
+    border-right: 5px solid;
+    padding-right:10px;
+}
+
+.four, .five, .six {
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+}
